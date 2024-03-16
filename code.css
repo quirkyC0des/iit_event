@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'ASTRID GROTESK', 'JETBRAINS MONO', 'FIGTREE';
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.two, .three, .four{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B4350;
+}
+.one{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ACE4E3;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+}
+.one-top{
+    display: inline-flex;
+    gap: 9px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+h3{
+    font-size: 20px;
+}
+.p{
+    margin-left: 14rem;
+}
+.page{
+    padding: 1.3rem;
+    color: white;
+    padding-left: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #0B4350;
+    border: 3px solid #E7E6AD;
+}
+#heading1, #heading2{
+    font-size: 40px;
+}
+#heading2{
+    margin-left: 60px;
+}
+.second_page, .third_page, .fourth_page, .fifth_page{
+    height:70vh;
+    width: 80vw;
+    border-radius: 15px;
+
+}
+.top{
+    font-size: 7rem ;
+    font-weight: 900;
+}
+.r-first, .r-second{
+    height: auto;
+    margin-top: 1.9rem;
+}
+.r-second{
+    margin: 15px;
+    margin-left: 0;
+}
+.left, .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    padding-right: 10px;
+}
+.right{
+    padding-top: 8.1rem;
+    padding-left: 10px;
+}
+.middle{
+    margin-top: 1rem;
+}
+.bottom{
+    margin-top: 1.7rem;
+    font-weight: 800;
+}
+
+.five{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #003E29;
+}
+.side {
+    position: fixed;
+    height: 4rem;
+    width: 4rem;
+    right: 0px;
+    top: 50%;
+    background-color: #4a95a6;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    padding-left: 15px;
+    gap: 1rem;
+}
+.side div{
+    height: 100%;
+    width: 1px;
+    border: 1px solid white;
+}
+.text{
+    position: absolute;
+    left: 0.5rem;
+    top: 4rem;
+    font-size: 2rem;
+}
+.circle{
+    position: absolute;
+    height: 19rem;
+    width: 19rem;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 4rem;
+    right: 4rem;
+    
+    overflow: hidden;
+}
+
+.chaar{
+    height: 100vh;
+    width: 100vw;
+    display: relative;
+    background-color: black;
+}
+
+/* .chaar one{
+    top: 2rem;
+    left: 2rem;
+}
+.chaar two{
+    top: 2rem;
+    right: 2rem;
+}
+.chaar three{
+    bottom: 2rem;
+    left: 2rem;
+}
+.chaar four{
+    bottom: 2rem;
+    right: 2rem;
+} */
+
+.animated-page{
+    background-color: #003E29;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.animated-page .d{
+    height: 3rem;
+    width: 70%;
+    background-color: white;
+    margin-left: 10rem;
+    position: relative;
+    top: 50%;
+    border-radius: 20px;
+    padding: 12px;
+    display: inline-flex;
+    gap: 15px;
+}
+.d .mark{
+    font-size: 20px;
+}
+
+.d .d-text{
+    font-size: small;
+}
+
+.rotating-circle{
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 9;
+    bottom: 5rem;
+    left: 4rem;
+}
+
